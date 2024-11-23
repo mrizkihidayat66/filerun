@@ -55,7 +55,7 @@ RUN \
     \
     echo "**** install filerun ****" && \
     mkdir -p /var/www/html && \
-    curl -o /tmp/filerun.zip -L http://tiny.cc/sn7qzz && \
+    curl -o /tmp/filerun.zip -L "https://www.dropbox.com/scl/fi/ds38ohliifpyrq3y4tilg/FileRun_20220519_PHP73-74.zip?rlkey=29zbw32y1ul3bvq77jk8qvk8l&st=z5bk3s0e&dl=1" && \
     unzip /tmp/filerun.zip -d /var/www/html && \
     \
     echo "**** cleanup ****" && \

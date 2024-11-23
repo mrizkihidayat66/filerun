@@ -102,5 +102,3 @@ networks:
 
 ### Gratitude and Support
 We extend our sincere gratitude to FileRun, LDA for their hard work and dedication in developing such a useful platform. If you find FileRun beneficial, we highly recommend supporting them by purchasing a license for the latest version. For pricing details, please visit the [FileRun Pricing Page](https://filerun.com/pricing).
-
-By using this Docker image, you are not only ensuring a stable environment but also honoring the legacy of the FileRun application, which has provided numerous users with exceptional file management capabilities over the years.

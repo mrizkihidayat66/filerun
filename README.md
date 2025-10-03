@@ -13,8 +13,6 @@ version: "3.8"
 volumes:
   db:
     driver: local
-  html:
-    driver: local
   user-files:
     driver: local
   config:
@@ -54,7 +52,6 @@ services:
     ports:
       - 5003:80
     volumes:
-      - html:/var/www/html
       - user-files:/user-files
       - config:/config
     healthcheck:
